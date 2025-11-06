@@ -161,21 +161,19 @@ src/
 1. **Clone and Install**
 
    ```bash
-
    git clone
-   cd pathfinder-travel
+   cd pathfinder
    npm install
-
    ```
 
 2. **Environment Configuration**
 
    ```bash
-
    REACT_APP_UNSPLASH_ACCESS_KEY=your_unsplash_key
-   REACT_APP_OPENWEATHER_API_KEY=your_weather_key
-   REACT_APP_OPENTRIPMAP_API_KEY=your_places_key
 
+   REACT_APP_OPENWEATHER_API_KEY=your_weather_key
+
+   REACT_APP_OPENTRIPMAP_API_KEY=your_places_key
    ```
 
 3. **Development Server**
@@ -189,10 +187,11 @@ src/
 ### API Key Setup
 
 1. **Unsplash API**
-   - Visit: [Unsplash Developers](https://unsplash.com/developers)
-   - Create developer account
-   - Create new application
-   - Copy access key
+
+- Visit: [Unsplash Developers](https://unsplash.com/developers)
+- Create developer account
+- Create new application
+- Copy access key
 
 2. **OpenWeatherMap**
 
