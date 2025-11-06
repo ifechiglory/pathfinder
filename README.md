@@ -159,23 +159,20 @@ src/
 ### Installation & Setup
 
 1. **Clone and Install**
-
    ```bash
    git clone
    cd pathfinder
    npm install
    ```
 
-2. **Environment Configuration**
-
+3. **Environment Configuration**
    ```bash
    REACT_APP_UNSPLASH_ACCESS_KEY=your_unsplash_key
    REACT_APP_OPENWEATHER_API_KEY=your_weather_key
    REACT_APP_OPENTRIPMAP_API_KEY=your_places_key
    ```
 
-3. **Development Server**
-
+4. **Development Server**
    ```bash
    npm run dev
    ```
