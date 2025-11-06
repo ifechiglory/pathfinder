@@ -161,24 +161,29 @@ src/
 1. **Clone and Install**
 
    ```bash
-   git clone <repository-url>
+
+   git clone
    cd pathfinder-travel
    npm install
+
    ```
 
 2. **Environment Configuration**
 
-   ```env
+   ```bash
+
    REACT_APP_UNSPLASH_ACCESS_KEY=your_unsplash_key
    REACT_APP_OPENWEATHER_API_KEY=your_weather_key
    REACT_APP_OPENTRIPMAP_API_KEY=your_places_key
+
    ```
 
 3. **Development Server**
 
    ```bash
+
    npm run dev
-   # Navigate to http://localhost:5173
+
    ```
 
 ### API Key Setup
@@ -190,14 +195,16 @@ src/
    - Copy access key
 
 2. **OpenWeatherMap**
-   - Visit: [OpenWeatherMap](https://openweathermap.org/api)
-   - Sign up for free account
-   - Generate API key
+
+- Visit: [OpenWeatherMap](https://openweathermap.org/api)
+- Sign up for free account
+- Generate API key
 
 3. **OpenTripMap**
-   - Visit: [OpenTripMap](https://opentripmap.io/docs)
-   - Register for API access
-   - Get your API key
+
+- Visit: [OpenTripMap](https://opentripmap.io/docs)
+- Register for API access
+- Get your API key
 
 ## 📈 Performance Characteristics
 
@@ -211,12 +218,12 @@ src/
 
 ### Manual Testing Checklist
 
-- [ ] API failure scenarios
-- [ ] Network timeout handling
-- [ ] Image loading and fallbacks
-- [ ] Responsive design breakpoints
-- [ ] Search functionality
-- [ ] Cross-browser compatibility
+- [x] API failure scenarios
+- [x] Network timeout handling
+- [x] Image loading and fallbacks
+- [x] Responsive design breakpoints
+- [x] Search functionality
+- [x] Cross-browser compatibility
 
 ### Error Scenario Handling
 
@@ -244,13 +251,13 @@ src/
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions!
 
-1\. Fork the repository
-2\. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3\. Commit your changes (`git commit -m 'Add amazing feature'`)
-4\. Push to the branch (`git push origin feature/amazing-feature`)
-5\. Open a Pull Request
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## 📄 License
 
