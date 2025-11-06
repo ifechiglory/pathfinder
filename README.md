@@ -170,18 +170,14 @@ src/
 
    ```bash
    REACT_APP_UNSPLASH_ACCESS_KEY=your_unsplash_key
-
    REACT_APP_OPENWEATHER_API_KEY=your_weather_key
-
    REACT_APP_OPENTRIPMAP_API_KEY=your_places_key
    ```
 
 3. **Development Server**
 
    ```bash
-
    npm run dev
-
    ```
 
 ### API Key Setup
